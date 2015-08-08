@@ -18,7 +18,6 @@ var app = app || {};
 
 		// Filter down the list of all todo items that are finished.
 		completed: function () {
-
 			return this.where({completed: true});
 		},
 

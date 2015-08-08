@@ -67,6 +67,7 @@ var app = app || {};
 
 		// Toggle the `"completed"` state of the model.
 		toggleCompleted: function () {
+			var textDone = "text +'     --done  '";
 			this.model.toggle();
 		},
 
